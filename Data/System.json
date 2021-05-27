@@ -26,6 +26,11 @@
             {"ID" : "Panda",        "Loaded" : "False", "FileName" : "./Data/ED4/Panda.json"},
             {"ID" : "BBData",       "Loaded" : "False", "FileName" : "./Data/ED4/BBData.json"}
       ],
+      "CharacterList" :
+      [
+            {"ID" : "StenTest",       "Loaded" : "False", "FileName" : "./Data/ED4/StenTest.json"}
+      ],
+
 
       "Abbreviations" :
       [

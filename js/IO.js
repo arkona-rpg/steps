@@ -42,7 +42,8 @@ let IO = new function()
         {
             Library.StepDiceList = json.StepDiceList;
             Library.BookList     = json.BookList;
-
+            Library.CharacterList = json.CharacterList;
+            
             Library.Abbreviations = json.Abbreviations;
             Library.Options       = json.Options;
             Library.Themes        = json.Themes;
@@ -115,6 +116,17 @@ let IO = new function()
 
         if (selectedCharacter == "Dox")
             selectedCharacter = "Pterradox";
+
+        if (selectedCharacter == 'StenTest')
+            let LoadedCharacter;
+            $.getJSON(Library.CharacterList[0].FileName, function(json, success)
+            {
+                LoadedCharacter = json
+                console.log("Character json for StenTest loaded");
+
+            });
+            if (LoadedCharacter != undefined)
+                IO.GrabCharacterFromFile(LoadedCharacter);
 
         if (Object.keys(pregens).includes(selectedCharacter))
         {

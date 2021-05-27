@@ -1,0 +1,348 @@
+{
+    "Basic": {
+        "Name": "Sten",
+        "Player": "Philip",
+        "Gender": "",
+        "Age": "",
+        "Height": "",
+        "Weight": "",
+        "Hair": "",
+        "Skin": "",
+        "Eyes": "",
+        "Passion": "",
+        "Traits": "",
+        "Description": ""
+    },
+    "Race": "ED4Obsidiman",
+    "attributePoints": 25,
+    "Attributes": {
+        "Dex": {
+            "Buildpoints": 15,
+            "Increases": 0
+        },
+        "Str": {
+            "Buildpoints": 12,
+            "Increases": 0
+        },
+        "Tou": {
+            "Buildpoints": 3,
+            "Increases": 0
+        },
+        "Per": {
+            "Buildpoints": -1,
+            "Increases": 0
+        },
+        "Wil": {
+            "Buildpoints": -2,
+            "Increases": 0
+        },
+        "Cha": {
+            "Buildpoints": -2,
+            "Increases": 0
+        }
+    },
+    "LegendPoints": 5600,
+    "Disciplines": [
+        {
+            "Order": "1",
+            "ID": "ED4Warrior",
+            "Circle": "3",
+            "OptionalTalentsChosen": [
+                {
+                    "Circle": "1",
+                    "ID": "ED4ShieldBash"
+                },
+                {
+                    "Circle": "2",
+                    "ID": "ED4AcrobaticDefense"
+                },
+                {
+                    "Circle": "3",
+                    "ID": "Empty"
+                }
+            ]
+        }
+    ],
+    "Talents": [
+        {
+            "Order": "0",
+            "ID": "ED4AvoidBlow",
+            "Rank": "2",
+            "Freerank": "0",
+            "Source": "Warrior 1",
+            "DisciplineId": "ED4Warrior",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "UID": "a95cc969-441d-4da5-9a05-9f0ff7b378aa",
+            "Cost": 300,
+            "Step": 9
+        },
+        {
+            "Order": "1",
+            "ID": "ED4MeleeWeapons",
+            "Rank": "5",
+            "Freerank": "3",
+            "Source": "Warrior 1",
+            "DisciplineId": "ED4Warrior",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "UID": "1c56999b-512d-493c-8b00-cd72d6c5e135",
+            "Cost": 1300,
+            "Step": 12
+        },
+        {
+            "Order": "2",
+            "ID": "ED4ThreadWeavingWarWeaving",
+            "Rank": "3",
+            "Freerank": "3",
+            "Source": "Warrior 1",
+            "DisciplineId": "ED4Warrior",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "UID": "cba82906-bf48-4778-bb1a-de1c2220e2da",
+            "Cost": 0,
+            "Step": 7
+        },
+        {
+            "Order": "3",
+            "ID": "ED4TigerSpring",
+            "Rank": "2",
+            "Freerank": "2",
+            "Source": "Warrior 1",
+            "DisciplineId": "ED4Warrior",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "UID": "a958a7e7-9618-4085-94d8-116d81536ae5",
+            "Cost": 0,
+            "Step": 6
+        },
+        {
+            "Order": "4",
+            "ID": "ED4WoodSkin",
+            "Rank": "2",
+            "Freerank": "0",
+            "Source": "Warrior 1",
+            "DisciplineId": "ED4Warrior",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "UID": "a540f317-7ddf-48e8-8dc9-b594d87c5090",
+            "Cost": 300,
+            "Step": 9
+        },
+        {
+            "Order": "5",
+            "ID": "ED4ShieldBash",
+            "Rank": "2",
+            "Freerank": "0",
+            "Source": "Warrior 1",
+            "DisciplineId": "ED4Warrior",
+            "Circle": "1",
+            "Type": "Optional",
+            "Debug": "New Optional Talent ",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "UID": "cedfd271-1c75-46f8-9abe-a789a64b55c9",
+            "Cost": 300,
+            "Step": 12
+        },
+        {
+            "Order": "6",
+            "ID": "ED4WoundBalance",
+            "Rank": "1",
+            "Freerank": "0",
+            "Source": "Warrior 2",
+            "DisciplineId": "ED4Warrior",
+            "Circle": "2",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "UID": "d69fe243-f2e9-4433-9e32-7eb7d05eaac8",
+            "Cost": 100,
+            "Step": 11
+        },
+        {
+            "Order": "7",
+            "ID": "ED4AcrobaticDefense",
+            "Rank": "1",
+            "Freerank": "0",
+            "Source": "Warrior 2",
+            "DisciplineId": "ED4Warrior",
+            "Circle": "2",
+            "Type": "Optional",
+            "Debug": "New Optional Talent ",
+            "FirstLearnt": 0,
+            "UID": "8899e989-4896-4720-adbc-2bbb9fec0f74",
+            "Cost": 100,
+            "Step": 8
+        },
+        {
+            "Order": "8",
+            "ID": "ED4AirDance",
+            "Rank": "0",
+            "Freerank": "0",
+            "Source": "Warrior 3",
+            "DisciplineId": "ED4Warrior",
+            "Circle": "3",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "Cost": 0,
+            "Step": 4
+        },
+        {
+            "Order": "9",
+            "ID": "Empty",
+            "Rank": "0",
+            "Freerank": "0",
+            "Source": "Warrior 3",
+            "DisciplineId": "ED4Warrior",
+            "Circle": "3",
+            "Type": "Optional",
+            "FirstLearnt": 0,
+            "Cost": 0,
+            "Step": "-"
+        }
+    ],
+    "Skills": [
+        {
+            "ID": "ED4Artisan",
+            "Name": "Pet Rocks",
+            "Rank": "3",
+            "Freerank": "2",
+            "Category": "Artisan",
+            "Cost": 500,
+            "Step": 7
+        },
+        {
+            "ID": "ED4Knowledge",
+            "Name": "Rock Wise",
+            "Rank": "2",
+            "Freerank": "2",
+            "Category": "Knowledge",
+            "Cost": 0,
+            "Step": 6
+        },
+        {
+            "ID": "ED4ThrowingWeapons",
+            "Rank": "3",
+            "Freerank": "2",
+            "Category": "General",
+            "Cost": 500,
+            "Step": 10
+        },
+        {
+            "ID": "NH4PowerLifting",
+            "Rank": "3",
+            "Freerank": "2",
+            "Category": "General",
+            "Cost": 500,
+            "Step": 13
+        },
+        {
+            "ID": "ED4ReadWriteLanguage",
+            "Rank": "1",
+            "Freerank": "1",
+            "Category": "General",
+            "Cost": 0,
+            "Step": 5
+        },
+        {
+            "ID": "ED4SpeakLanguage",
+            "Rank": "2",
+            "Freerank": "2",
+            "Category": "General",
+            "Cost": 0,
+            "Step": 6
+        }
+    ],
+    "Spells": [],
+    "Equipment": [
+        {
+            "ID": "TrollSword",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Melee Weapon",
+            "DamageStep": 16
+        },
+        {
+            "ID": "HideArmor",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Armor"
+        },
+        {
+            "ID": "Body",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Shield"
+        },
+        {
+            "ID": "HorrorFend",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Blood Charm"
+        },
+        {
+            "ID": "LightQuartzSmall",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Magic"
+        },
+        {
+            "ID": "SalveofClosure",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Healing Aid"
+        },
+        {
+            "ID": "misc",
+            "Name": "Pet Rock (Nat Skykke)",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Adventuring"
+        },
+        {
+            "ID": "AdventuringKit",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Adventuring"
+        }
+    ],
+    "Options": {
+        "FirstWoundFree": "true",
+        "Books": "All",
+        "StepDice": "ED4",
+        "Attributepoints": "25",
+        "Talentpoints": "8",
+        "KnowledgeSkillpoints": "2",
+        "ArtisanSkillpoints": "1",
+        "SpeakSkillpoints": "2",
+        "ReadSkillpoints": "1",
+        "FreeSkillpoints": "8",
+        "SkillFreeRanksLimit": "Novice",
+        "Spellpoints": "PERstep",
+        "FreeMatricesStack": "false",
+        "CasterCircle5Bonus": "false",
+        "SpellsCostLP": "4ed",
+        "RangedAggressive": "false",
+        "Durability": "Best",
+        "AllTalentsToAdvance": "No",
+        "MaxAttributeIncrease": "3",
+        "AttributeIncrease": "Costs",
+        "DiscBonusesStack": "Highest"
+    },
+    "Paths": [],
+    "Damage": 0,
+    "Wounds": 0,
+    "Knacks": [],
+    "PortraitURL": "./img/Portraits/Empty.jpg",
+    "StepsVersion": 922
+}
