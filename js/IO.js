@@ -118,7 +118,7 @@ let IO = new function()
             selectedCharacter = "Pterradox";
 
         if (selectedCharacter == 'StenTest')
-            console.log('Getting StenTest...')
+            console.log("Getting StenTest...");
             let LoadedCharacter;
             $.getJSON(Library.CharacterList[0].FileName, function(json, success)
             {
