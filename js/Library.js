@@ -82,14 +82,18 @@ let Library = new function()
         if (books.includes("Official"))
             books += " Core MysticPaths ElvenNations Travar Iopos Questors"; // Add book files as they're added.
         if (books.includes("Unofficial"))
-            books += " LarsGottlieb, Sebastian, Panda, BBData"; // Add book files as they're added.
+            books += " LarsGottlieb, Sebastian, Panda, BBData, Arkona"; // Add book files as they're added.
         if (!books.includes("Core") && books.toLowerCase() != "all")
             books += " Core";
 
         // This is a bit of a patch
         if (books.includes("Sebastian") && !books.includes("MysticPaths"))
             books += " MysticPaths";
-
+        
+        // Force to always use Arkona
+            books += " Arkona"    
+        
+        console.log(books)
         for (let i = 0; i < this.Books.length; i++) 
             if (books.includes(this.Books[i].ID) || books.toLowerCase().includes("all"))
             {

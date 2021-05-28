@@ -1,0 +1,63 @@
+{
+	"ID": "Arkona",
+	"Books": "Arkona Homebrew",
+	"Description": "Earthdawn 4 Custom data for the Steps project",
+	"version": "1",
+	"by": "Jonathan",
+	"Races": [],
+	"Talents": [],
+	"Knacks": [],
+	"Paths": [],
+	"Equipment": [{
+			"ID": "JFCrystalRing",
+			"Name": "Bone Chiller",
+			"Reference": "<a target='_blank' href='https://docs.google.com/document/d/1sNHPmNnpAA-IDavNTVe04dD9i0qmqznhUlcXdw6fSBc/edit'>Crystal Ring</a>",
+			"Type": "Thread Item",
+			"BaseType": "Clothing",
+			"Cost": "",
+			"Weight": "0",
+			"BaseLPCost": "200",
+			"SpellDefense": "12",
+			"Ranks": [{
+					"Rank": "1",
+					"Modifiers": {
+						"Talents": [{
+							"ID": "ED4Frighten",
+							"Modifier": "1"
+						}]
+					}
+				},
+				{
+					"Rank": "2",
+					"Modifiers": {
+						"Talents": [{
+							"ID": "ED4ResistPain",
+							"Modifier": "1"
+						},
+						{
+							"ID": "ED4Frighten",
+							"Modifier": "1"
+						}
+					]
+					}
+				}
+			]
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

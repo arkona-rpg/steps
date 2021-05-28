@@ -24,23 +24,16 @@
             {"ID" : "LarsGottlieb", "Loaded" : "False", "FileName" : "./Data/ED4/LarsGottlieb.json"},
             {"ID" : "Sebastian",    "Loaded" : "False", "FileName" : "./Data/ED4/Sebastian.json"},
             {"ID" : "Panda",        "Loaded" : "False", "FileName" : "./Data/ED4/Panda.json"},
-            {"ID" : "BBData",       "Loaded" : "False", "FileName" : "./Data/ED4/BBData.json"}
+            {"ID" : "BBData",       "Loaded" : "False", "FileName" : "./Data/ED4/BBData.json"},
+            {"ID" : "Arkona",       "Loaded" : "False", "FileName" : "./Data/ED4/Arkona.json"}
+
       ],
       "CharacterList" :
       [
-            {"ID" : "WinnTest",       "Loaded" : "False", "FileName" : "./Data/ED4/Winn.json"},
-            {"ID" : "StenTest",       "Loaded" : "False", "FileName" : "./Data/ED4/StenTest.json"},
-            {"ID" : "Dunlap",       "Loaded" : "False", "FileName" : "./Data/ED4/Dunlap.json"}
+            {"ID" : "Winn",       "Loaded" : "False", "FileName" : "./Characters/Winn.json"},
+            {"ID" : "Dunlap",       "Loaded" : "False", "FileName" : "./Characters/Dunlap.json"}
 
       ],
-      "CharacterList2" :
-      [
-            {"ID" : "StenTest",       "Loaded" : "False", "FileName" : "./Data/ED4/StenTest.json"},
-            {"ID" : "Winn",       "Loaded" : "False", "FileName" : "./Data/ED4/Winn.json"},
-            {"ID" : "Dunlap",       "Loaded" : "False", "FileName" : "./Data/ED4/Dunlap.json"}
-      
-      ],
-
 
       "Abbreviations" :
       [
