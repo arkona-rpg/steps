@@ -117,18 +117,22 @@ let IO = new function()
         if (selectedCharacter == "Dox")
             selectedCharacter = "Pterradox";
 
-        if (selectedCharacter == 'StenTest')
-            console.log("Getting StenTest...");
+        if (Library.CharacterList.find(o => o.ID == selectedCharacter))
+            {
+            console.log("Getting " + selectedCharacter + " from file");
+            var charID = Library.CharacterList.findIndex(o => o.ID == selectedCharacter);
             let LoadedCharacter;
-            $.getJSON(Library.CharacterList[0].FileName, function(json, success)
+            console.log(Library.CharacterList[charID].FileName)
+            $.getJSON(Library.CharacterList[charID].FileName, function(json, success)
             {
                 LoadedCharacter = json
-                console.log("Character json for StenTest loaded");
-
-            });
-            if (LoadedCharacter != undefined)
+                console.log("Character json for" + selectedCharacter + "loaded");
                 IO.GrabCharacterFromFile(LoadedCharacter);
 
+            });
+            if (LoadedCharacter != undefined) // not sure why I need this, 
+                IO.GrabCharacterFromFile(LoadedCharacter);
+            }
         if (Object.keys(pregens).includes(selectedCharacter))
         {
             console.log("Grabbing pregen " + pregens[selectedCharacter].Basic.Name);

@@ -28,7 +28,17 @@
       ],
       "CharacterList" :
       [
-            {"ID" : "StenTest",       "Loaded" : "False", "FileName" : "./Data/ED4/StenTest.json"}
+            {"ID" : "WinnTest",       "Loaded" : "False", "FileName" : "./Data/ED4/Winn.json"},
+            {"ID" : "StenTest",       "Loaded" : "False", "FileName" : "./Data/ED4/StenTest.json"},
+            {"ID" : "Dunlap",       "Loaded" : "False", "FileName" : "./Data/ED4/Dunlap.json"}
+
+      ],
+      "CharacterList2" :
+      [
+            {"ID" : "StenTest",       "Loaded" : "False", "FileName" : "./Data/ED4/StenTest.json"},
+            {"ID" : "Winn",       "Loaded" : "False", "FileName" : "./Data/ED4/Winn.json"},
+            {"ID" : "Dunlap",       "Loaded" : "False", "FileName" : "./Data/ED4/Dunlap.json"}
+      
       ],
 
 

@@ -7,6 +7,7 @@ let Library = new function()
 
     this.BookList = [];
     this.StepDiceList = [];
+    this.CharacterList = []; //integrated characters
 
     this.Books = [];
     this.StepDiceTables = [];
@@ -40,6 +41,7 @@ let Library = new function()
 
     this.VersatilityTiers = [];
 
+    
     this.SortBooks = function()
     {
         this.Books = this.Books.sort(function(a, b) 
@@ -716,6 +718,12 @@ let Library = new function()
     {
         return this.Themes.find(o => o.ID === id+""); 
     };
+    
+    this.GetCharacter = function(id)
+    {
+        return this.CharacterList.find(o => o.ID === id+""); 
+    };
+
 };
 
 
