@@ -40,7 +40,38 @@
 						}
 					]
 					}
+				},
+				{
+					"Rank": "3",
+					"Modifiers": {
+						"Talents": [{
+							"ID": "ED4ResistPain",
+							"Modifier": "1"
+						},
+						{
+							"ID": "ED4Frighten",
+							"Modifier": "1"
+						}
+					],
+						"Effect":"The ring sinks into the wearer's flesh, slowly carving to the bone. This causes no pain at all, but is discomforting to watch and feel. The runes become an intrinsic part of the wearer's circulatory system, moving blood between the rest of their finger and their body. The wearer also gains the Bone Chiller ability. As a Simple action for 1 Strain, the runes turn silver and a chill spreads through the wearer, visibly turning them slightly blue in their extremities until the end of the next round. During this time, the wearer gains +2 to Mystic Armor."
+					}
+				},
+				{
+					"Rank": "4",
+					"Modifiers": {
+						"Talents": [{
+							"ID": "ED4ResistPain",
+							"Modifier": "1"
+						},
+						{
+							"ID": "ED4Frighten",
+							"Modifier": "1"
+						}
+					],
+						"Effect":"The ring sinks into the wearer's flesh, slowly carving to the bone. This causes no pain at all, but is discomforting to watch and feel. The runes become an intrinsic part of the wearer's circulatory system, moving blood between the rest of their finger and their body. The wearer also gains the Bone Chiller ability. As a Simple action for 1 Strain, the runes turn silver and a chill spreads through the wearer, visibly turning them slightly blue in their extremities until the end of the next round. During this time, the wearer gains +2 to Mystic Armor. <p><br><p> The ring expands, covering the wearer's entire phalanx in a tube of crystal with the bone underneath on display. When the wearer uses Bone Chiller, the wearer can channel the cold into their visage, causing ice to swirl around them. The wearer gives themselves a penalty to Mystic Armor up to the Thread Rank to provide an equivalent bonus to Frighten tests until the end of the next round. If this effect is used again, the previous effect immediately ends. This cannot reduce the wearer's Mystic Armor below 0."
+					}
 				}
+
 			]
 		}
 	]
